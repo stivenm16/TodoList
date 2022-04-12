@@ -3,8 +3,9 @@ form {
     width: 70%;
     align-items: center;
     justify-content: center;
-    background-color: rgba(239, 237, 237, 0.599);
+    background-color: rgba(217, 206, 235, 0.599);
     border-radius: 1rem;
+    box-shadow: .5rem .2rem .5rem .2rem rgba(50, 49, 49, 0.62);
  
 }
 
@@ -30,7 +31,7 @@ textarea {
     position: relative;
     width: 80%;
     margin: auto;
-    border-radius: .5rem;
+    border-radius: 1rem;
     outline: none;
     border-style: none;
     font-family: sans-serif;
@@ -59,9 +60,10 @@ textarea {
   border-radius: .5rem;
   border-style: none;
   font-style:italic;
+  background-color: rgba(255, 255, 255, 0.566);
 }
 
 .buttonS:hover{
-    box-shadow: 0px 3px 50px rgba(117, 115, 254, 0.614);
+    box-shadow: 0px 3px 50px rgba(97, 131, 252, 0.614);
     cursor: pointer;
 }
