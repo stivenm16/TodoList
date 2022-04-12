@@ -9,6 +9,8 @@
   border-radius: .5rem 2rem .5rem;
   cursor: pointer;
   transition: 1s;
+  font-weight: 900;
+  
 }
 
 
@@ -21,7 +23,7 @@
 }
 
 .TodoItem:hover {
-  box-shadow: 0px 5px 50px rgba(121, 118, 255, 0.233);
+  box-shadow: 0px 5px 50px rgba(47, 47, 62, 0.566);
   transform: rotateZ(.3deg);
   
 }
