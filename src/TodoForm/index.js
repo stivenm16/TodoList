@@ -25,9 +25,9 @@ function TodoForm() {
  
     return (
         <form onSubmit={onSubmit}>
-            <label>...</label>
+            <label>👻👻👻</label>
             <textarea
-                placeholder="Cortar la cebolla para el almuerzo"
+                placeholder="¿Qué tienes pendiente por hacer?"
                 value={newTodoValue}
                 onChange={onChange}
             />

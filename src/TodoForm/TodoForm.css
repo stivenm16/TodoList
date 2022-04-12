@@ -1,19 +1,53 @@
 form {
-    height: 10rem;
-    width: 60%;
+    height: 8.5rem;
+    width: 70%;
     align-items: center;
     justify-content: center;
+    background-color: rgba(239, 237, 237, 0.599);
+    border-radius: 1rem;
  
+}
+
+label{
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    align-content: center;
+    color: rgba(36, 35, 85, 0.932);
+    /* background-color: rgba(66, 20, 249, 0.281); */
+    border-radius: 0rem 1rem 0rem 1rem;
+    box-sizing: content-box;
+    width: auto;
+    
+
 }
 
 textarea {
     display: flex;
     align-items: center;
     position: relative;
-    width: 50%;
+    width: 80%;
     margin: auto;
     border-radius: .5rem;
+    outline: none;
+    border-style: none;
+    font-family: sans-serif;
+    text-align: center;
+    
 }
+
+/* textarea: {
+    top:-.5rem;
+    left: .8rem;
+    color: gray;
+    font-size: .5rem;
+    font-weight: 500;
+    z-index: 10;
+
+} */
+
 
 .small-button {
     display: flex;
@@ -21,12 +55,13 @@ textarea {
 }
 .buttonS {
   padding: .5rem;
-  margin: 2rem;
+  margin: 1.2rem;
   border-radius: .5rem;
   border-style: none;
+  font-style:italic;
 }
 
 .buttonS:hover{
-    box-shadow: 0px 5px 50px rgba(121, 118, 255, 0.233);
+    box-shadow: 0px 3px 50px rgba(117, 115, 254, 0.614);
     cursor: pointer;
 }

@@ -16,7 +16,7 @@ function TodoSearch() {
     return (
       <input
         className="TodoSearch"
-        placeholder="Cebolla"
+        placeholder="¿Qué estas buscando?"
         value={searchValue}
         onChange={onSearchValueChange}
       />
