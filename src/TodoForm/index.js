@@ -1,5 +1,6 @@
 import React from "react";
 import { TodoContext } from "../TodoContext";
+import './TodoForm.css'
 
 function TodoForm() {
     
@@ -30,14 +31,16 @@ function TodoForm() {
                 value={newTodoValue}
                 onChange={onChange}
             />
-            <div>
+            <div className="small-button">
                 <button
+                    className="buttonS"
                     type="button"
                     onClick={onCancel}
                 >
                     Cancelar
                 </button>
                 <button
+                    className="buttonS"
                     type="submit"
                     onClick={onSubmit}
                 >

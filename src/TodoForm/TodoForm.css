@@ -1,0 +1,32 @@
+form {
+    height: 10rem;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+textarea {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.small-button {
+    display: flex;
+    justify-content: center;
+}
+.buttonS {
+  padding: .5rem;
+  margin: 2rem;
+  border-radius: .5rem;
+  border-style: none;
+}
+
+.buttonS:hover{
+    box-shadow: 0px 5px 50px rgba(121, 118, 255, 0.233);
+    cursor: pointer;
+}
