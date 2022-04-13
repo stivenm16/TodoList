@@ -7,6 +7,7 @@ import { TodoForm } from "../TodoForm";
 import { TodoSearch } from "../TodoSearch";
 import { CreateTodoButton } from "../CreateTodoButton";
 import {Modal} from "../Modal";
+import './AppUI.css'
 
 
 function AppUI() {

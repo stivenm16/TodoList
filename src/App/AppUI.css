@@ -1,0 +1,34 @@
+.div-loading {
+    width: 40px;
+    margin: auto;
+}
+
+.dot {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    border-radius: 50%;
+    margin: .5rem;
+    
+}
+
+.dot1{
+    background-color: black;
+    animation: jump-up 0.6s 0.1s linear infinite;
+}
+
+.dot2{
+    background-color: white;
+    animation: jump-up 0.6s 0.2s linear infinite;
+}
+
+.dot3{
+    background-color: black;
+    animation: jump-up 0.6s 0.3s linear infinite;
+}
+
+@keyframes jump-up {
+    50%{
+        transform: translate(0,15px);
+    }
+}
