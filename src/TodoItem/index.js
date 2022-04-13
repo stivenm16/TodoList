@@ -1,5 +1,7 @@
 import React from "react";
 import './TodoItem.css';
+import { BsCheckLg } from 'react-icons/bs'
+import { MdDelete } from 'react-icons/md'
 
 function TodoItem(props) {
     
@@ -9,7 +11,7 @@ function TodoItem(props) {
           className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
           onClick={props.onComplete}
         >
-          √
+        <BsCheckLg/>
         </span>
         <p className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}>
           {props.text}
@@ -18,7 +20,7 @@ function TodoItem(props) {
           className="Icon Icon-delete"
           onClick={props.onDelete}
         >
-          X
+        <MdDelete/>
         </span>
       </li>
     );
